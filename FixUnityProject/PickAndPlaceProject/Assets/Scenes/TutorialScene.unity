@@ -10297,12 +10297,12 @@ MonoBehaviour:
   selectedJoint: 
   selectedIndex: 0
   control: 0
-  stiffness: 10000
+  stiffness: 7500
   damping: 150
   forceLimit: 1500
-  speed: 150
+  speed: 200
   torque: 150
-  acceleration: 150
+  acceleration: 200
   highLightColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &1476420200
 MonoBehaviour:
@@ -13163,7 +13163,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 600, y: 842}
+  m_SizeDelta: {x: 652, y: 928}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1924382132
 MonoBehaviour:
