@@ -11,7 +11,12 @@ Digitale Voorstelling Jasper Cremers I-Talent 2021-2022
 
 3. Start de docker cotainer:
   - Linux: run start_container_linux.sh
-  - Windows: run ...
+  - or: run ...
+```
+cd FixUnityProject/ &&
+git submodule update --init --recursive &&
+docker build -t unity-robotics:pick-and-place -f docker/Dockerfile .
+```
   
 4. Om ROS in de container te starten, voer het volgende commando uit:
   - roslaunch niryo_moveit part_3.launch
